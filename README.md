@@ -7,7 +7,7 @@ Simple cassandra example in rust with insert and select by configuring cassandra
 **Run the application (via docker)**
 ~~~~
 docker compose up
-docker build rust_cassandra .
+docker build -t rust_cassandra .
 docker run rust_cassandra
 ~~~~
 
